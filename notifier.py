@@ -25,7 +25,7 @@ def activity_check(chk_int, sleep_time):
         pushover.send_message("Ebay listing notifier is active.")
         return 0
 
-def newListing(url, message, phone_num, sleep_time, open_links):
+def newListing(url, message, sleep_time, open_links):
     check_int = 0
     while True:
 
